@@ -1,0 +1,14 @@
+<Context>  
+  <Resource name="itcast" 
+			type="com.mchange.v2.c3p0.ComboPooledDataSource"
+			factory="org.apache.naming.factory.BeanFactory"
+			user="root" 
+			password="123" 
+			driverClass="com.mysql.jdbc.Driver"    
+			jdbcUrl="jdbc:mysql://127.0.0.1/mydb1"
+			acquireIncrement="1"
+			maxPoolSize="5"
+			initialPoolSize="3"/>
+</Context>  
+
+ 
